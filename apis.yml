@@ -1,7 +1,28 @@
 aid: wiser
 name: Wiser
-description: Wiser is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Wiser Solutions is a retail and commerce intelligence company that provides
+  pricing, market, and MAP (minimum advertised price) intelligence to brands and
+  retailers. Its platform collects online and in-store data, tracking billions of
+  products daily across hundreds of thousands of stores, to power price
+  optimization, competitive price monitoring, promotion and assortment tracking,
+  review analytics, and unauthorized-seller enforcement. Wiser serves hundreds of
+  brands and large retailers and integrates with major eCommerce platforms and
+  marketplaces. As of this profile Wiser publishes no public developer API,
+  SDKs, or developer portal; integrations are delivered through its platform,
+  dashboards, and partner connectors.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.wiser.com/hubfs/press-release-social-image-1200x628.png
 url: https://raw.githubusercontent.com/api-evangelist/wiser/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Retail Intelligence
+- Pricing Intelligence
+- Market Intelligence
+- Commerce
+- E-commerce
+- Analytics
+- Data
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +51,20 @@ maintainers:
 common:
 - type: Website
   url: https://wiser.com
+- type: Blog
+  url: https://www.wiser.com/blog/
+- type: Support
+  url: https://help.wiser.com/
+- type: Pricing
+  url: https://www.wiser.com/pricing/
+- type: PrivacyPolicy
+  url: https://www.wiser.com/privacy/
+- type: GitHubOrganization
+  url: https://github.com/WiserSolutions
+- type: DomainSecurity
+  url: security/wiser-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
